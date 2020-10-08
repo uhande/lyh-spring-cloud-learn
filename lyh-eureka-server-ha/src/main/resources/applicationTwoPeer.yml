@@ -1,0 +1,28 @@
+#高可用配置，两个节点
+spring:
+  application:
+    name: lyh-eureka-server-ha
+  profiles:
+    active: peer1
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://peer1/eureka/,http://peer2/eureka/
+---
+server:
+  port: 8901
+spring:
+  profiles: peer1
+eureka:
+  instance:
+    hostname: peer1
+
+---
+server:
+  port: 8902
+spring:
+  profiles: peer2
+eureka:
+  instance:
+    hostname: peer2

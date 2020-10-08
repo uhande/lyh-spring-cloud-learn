@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lyh-consumer-order/lyh-consumer-order.iml" filepath="$PROJECT_DIR$/lyh-consumer-order/lyh-consumer-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-consumer-order-feign/lyh-consumer-order-feign.iml" filepath="$PROJECT_DIR$/lyh-consumer-order-feign/lyh-consumer-order-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-consumer-order-feign-hystrix/lyh-consumer-order-feign-hystrix.iml" filepath="$PROJECT_DIR$/lyh-consumer-order-feign-hystrix/lyh-consumer-order-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-consumer-order-hystrix/lyh-consumer-order-hystrix.iml" filepath="$PROJECT_DIR$/lyh-consumer-order-hystrix/lyh-consumer-order-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-consumer-order-ribbon/lyh-consumer-order-ribbon.iml" filepath="$PROJECT_DIR$/lyh-consumer-order-ribbon/lyh-consumer-order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-eureka-server/lyh-eureka-server.iml" filepath="$PROJECT_DIR$/lyh-eureka-server/lyh-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-eureka-server-ha/lyh-eureka-server-ha.iml" filepath="$PROJECT_DIR$/lyh-eureka-server-ha/lyh-eureka-server-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-gateway-zuul/lyh-gateway-zuul.iml" filepath="$PROJECT_DIR$/lyh-gateway-zuul/lyh-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-provider-user/lyh-provider-user.iml" filepath="$PROJECT_DIR$/lyh-provider-user/lyh-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyh-spring-cloud-learn.iml" filepath="$PROJECT_DIR$/lyh-spring-cloud-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-learn.iml" filepath="$PROJECT_DIR$/spring-cloud-learn.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: lyh-gateway-zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8761/eureka

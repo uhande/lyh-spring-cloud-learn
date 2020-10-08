@@ -1,0 +1,23 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8900/eureka
+#使用配置文件方式实现负载均衡，优先级，配置文件>注解或java代码配置>cloud默认配置
+provider-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+#健康监控配置
+management:
+  endpoint:
+    health:
+      show-details: always #是否健康监控显示细节
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream
+      base-path: / #暴露的端点链接

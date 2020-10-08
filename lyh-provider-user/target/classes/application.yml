@@ -1,0 +1,9 @@
+server:
+  port: 7900 #程序启动入口
+spring:
+  application:
+    name: lyh-provider-user #应用名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:8761/eureka

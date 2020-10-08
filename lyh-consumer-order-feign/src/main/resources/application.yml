@@ -1,0 +1,13 @@
+server:
+  port: 8901
+spring:
+  application:
+    name: lyh-consumer-order-feign
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8761/eureka
+#使用配置文件方式实现负载均衡，优先级，配置文件>注解或java代码配置>cloud默认配置
+provider-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

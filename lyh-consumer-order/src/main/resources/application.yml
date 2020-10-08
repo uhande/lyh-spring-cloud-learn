@@ -1,0 +1,9 @@
+server:
+  port: 8900
+spring:
+  application:
+    name: lyh-consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8761/eureka

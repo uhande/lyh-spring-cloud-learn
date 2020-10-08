@@ -1,0 +1,24 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: consumer-order-feign-hystrix
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8900/eureka
+feign:
+  hystrix:
+    enabled: true
+#健康监控配置
+management:
+  endpoint:
+    health:
+      show-details: always #是否健康监控显示细节
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+provider-user:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule

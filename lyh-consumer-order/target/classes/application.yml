@@ -1,0 +1,9 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:123@localhost:8900/eureka

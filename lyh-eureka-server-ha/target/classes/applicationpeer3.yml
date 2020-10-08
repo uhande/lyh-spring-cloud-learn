@@ -1,0 +1,13 @@
+server:
+  port: 8903
+eureka:
+  instance:
+    hostname: peer3
+    prefer-ip-address: false
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://peer1:8901/eureka/,http://peer2:8902/eureka/
+
+
