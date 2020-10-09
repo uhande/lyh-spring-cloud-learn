@@ -7,3 +7,30 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://user:123@localhost:8761/eureka
+#健康监控
+management:
+  endpoint:
+    routes: # Actuator配合zuul使用 默认true
+      enabled: true
+    filters: # Actuator配合zuul使用 默认true
+      enabled: true
+    health:
+      show-details: always #是否健康监控显示细节
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: / #暴露的端点链接
+#禁用某个filter
+zuul:
+  PreZuulFilter:  #过滤器类名
+    pre:  #过滤类型
+      disable: false
+  #ignoredServices: '*' #剔除的链接，*代表所有
+  routes:
+    lyh-provider-user: /myusers/** #自定义的反向代理url
+#当上传大文件是在serviceid前加zuul/ 如：zuul/servcieid/*,且需要配置ribbon的超时时间和hystrix的超时时间，防止报错后走hystrix的退回代码
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000

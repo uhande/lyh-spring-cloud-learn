@@ -1,7 +1,7 @@
 #高可用配置，两个节点
 spring:
   application:
-    name: eureka-server-ha
+    name: lyh-eureka-server-ha
   profiles:
     active: peer1
 

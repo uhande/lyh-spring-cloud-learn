@@ -1,9 +1,9 @@
 server:
-  port: 8010
+  port: 8900
 spring:
   application:
-    name: consumer-order
+    name: lyh-consumer-order
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:123@localhost:8900/eureka
+      defaultZone: http://user:123@localhost:8761/eureka
