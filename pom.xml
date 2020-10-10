@@ -22,6 +22,7 @@
     <module>lyh-eureka-server-ha</module>
     <module>lyh-consumer-order-feign</module>
     <module>lyh-gateway-zuul</module>
+    <module>lyh-config-server</module>
   </modules>
 
   <name>lyh-spring-cloud-learn</name>

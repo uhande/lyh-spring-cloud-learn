@@ -1,5 +1,5 @@
-D:\JavaProject\spring-cloud-learn\consumer-order-ribbon\src\main\java\com\lyh\ConsumerOrderRibbonApp.java
-D:\JavaProject\spring-cloud-learn\consumer-order-ribbon\src\main\java\com\lyh\pojo\User.java
-D:\JavaProject\spring-cloud-learn\consumer-order-ribbon\src\main\java\com\lyh\consumer\controller\OrderController.java
-D:\JavaProject\spring-cloud-learn\consumer-order-ribbon\src\main\java\com\lyh\pojo\Order.java
-D:\JavaProject\spring-cloud-learn\consumer-order-ribbon\src\main\java\com\lyh\RibbonConfiguration.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-consumer-order-ribbon\src\main\java\com\lyh\consumer\controller\OrderController.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-consumer-order-ribbon\src\main\java\com\lyh\ConsumerOrderRibbonApp.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-consumer-order-ribbon\src\main\java\com\lyh\pojo\Order.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-consumer-order-ribbon\src\main\java\com\lyh\RibbonConfiguration.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-consumer-order-ribbon\src\main\java\com\lyh\pojo\User.java

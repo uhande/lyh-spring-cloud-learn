@@ -1,0 +1,17 @@
+server:
+  port: 8761 #应用的端口号
+spring:
+  application:
+    name: lyh-eureka-server   #应用名称 还可以用eureka.instance.hostname = eureka-server
+  security: #配置自定义Auth账号密码
+    user:
+      name: user
+      password: 123
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:8761/eureka #eureka服务的的注册地址
+    fetch-registry: false #是否去注册中心拉取其他服务地址
+    register-with-eureka: false #是否注册到eureka
+  instance:
+    prefer-ip-address: true

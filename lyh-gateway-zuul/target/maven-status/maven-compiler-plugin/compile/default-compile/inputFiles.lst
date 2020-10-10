@@ -1,4 +1,3 @@
-D:\JavaProject\spring-cloud-learn\consumer-order\src\main\java\com\lyh\ConsumerApp.java
-D:\JavaProject\spring-cloud-learn\consumer-order\src\main\java\com\lyh\consumer\controller\OrderController.java
-D:\JavaProject\spring-cloud-learn\consumer-order\src\main\java\com\lyh\pojo\Order.java
-D:\JavaProject\spring-cloud-learn\consumer-order\src\main\java\com\lyh\pojo\User.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-gateway-zuul\src\main\java\com\lyh\cloud\fallback\ZuulFallbackProvider.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-gateway-zuul\src\main\java\com\lyh\cloud\filter\PreZuulFilter.java
+D:\JavaProject\lyh-spring-cloud-learn\lyh-gateway-zuul\src\main\java\com\lyh\cloud\GatewayZuulApp.java

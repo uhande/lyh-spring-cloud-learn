@@ -1,4 +1,5 @@
 com\lyh\pojo\User.class
 com\lyh\ConsumerFeignApp.class
+com\lyh\UserFeignClient.class
 com\lyh\consumer\controller\OrderFeignController.class
 com\lyh\pojo\Order.class

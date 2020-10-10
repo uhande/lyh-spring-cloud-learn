@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="consumer-order-feign" />
         <module name="lyh-consumer-order" />
-        <module name="lyh-consumer-order-hystrix" />
+        <module name="lyh-consumer-order-feign-hystrix" />
         <module name="consumer-order" />
         <module name="lyh-gateway-zuul" />
         <module name="eureka-server-ha" />
@@ -15,13 +16,14 @@
         <module name="provider-user" />
         <module name="lyh-eureka-server-ha" />
         <module name="ribbon-server" />
-        <module name="consumer-order-feign" />
-        <module name="consumer-order-ribbon" />
+        <module name="lyh-consumer-order-hystrix" />
         <module name="eureka-server" />
         <module name="lyh-consumer-order-feign" />
         <module name="lyh-provider-user" />
-        <module name="lyh-consumer-order-feign-hystrix" />
+        <module name="lyh-config-server" />
+        <module name="consumer-order-ribbon" />
         <module name="consumer-order-feign-hystrix" />
+        <module name="lyh-spring-cloud-config" />
         <module name="lyh-consumer-order-ribbon" />
         <module name="lyh-eureka-server" />
       </profile>
@@ -34,6 +36,7 @@
       <module name="consumer-order-ribbon" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="eureka-server-ha" target="1.7" />
+      <module name="lyh-config-server" target="1.7" />
       <module name="lyh-consumer-order" target="1.7" />
       <module name="lyh-consumer-order-feign" target="1.7" />
       <module name="lyh-consumer-order-feign-hystrix" target="1.7" />
@@ -43,6 +46,7 @@
       <module name="lyh-eureka-server-ha" target="1.7" />
       <module name="lyh-gateway-zuul" target="1.7" />
       <module name="lyh-provider-user" target="1.7" />
+      <module name="lyh-spring-cloud-config" target="1.7" />
       <module name="lyh-spring-cloud-learn" target="1.7" />
       <module name="provider-user" target="1.7" />
       <module name="ribbon-server" target="1.7" />
@@ -58,6 +62,7 @@
       <module name="consumer-order-ribbon" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server-ha" options="-parameters" />
+      <module name="lyh-config-server" options="-parameters" />
       <module name="lyh-consumer-order" options="-parameters" />
       <module name="lyh-consumer-order-feign" options="-parameters" />
       <module name="lyh-consumer-order-feign-hystrix" options="-parameters" />
@@ -67,6 +72,7 @@
       <module name="lyh-eureka-server-ha" options="-parameters" />
       <module name="lyh-gateway-zuul" options="-parameters" />
       <module name="lyh-provider-user" options="-parameters" />
+      <module name="lyh-spring-cloud-config" options="" />
       <module name="provider-user" options="-parameters" />
       <module name="ribbon-server" options="-parameters" />
     </option>

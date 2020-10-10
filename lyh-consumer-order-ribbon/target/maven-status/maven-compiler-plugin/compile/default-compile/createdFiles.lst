@@ -1,0 +1,5 @@
+com\lyh\pojo\User.class
+com\lyh\RibbonConfiguration.class
+com\lyh\consumer\controller\OrderController.class
+com\lyh\pojo\Order.class
+com\lyh\ConsumerOrderRibbonApp.class

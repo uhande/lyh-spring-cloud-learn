@@ -1,0 +1,9 @@
+com\lyh\cloud\HystrixClientNotHystrixFallback.class
+com\lyh\cloud\pojo\User.class
+com\lyh\cloud\consumer\controller\OrderFeignController.class
+com\lyh\config\ConfigurationNotHystrix.class
+com\lyh\cloud\UserFeignClient.class
+com\lyh\cloud\HystrixClientFallback.class
+com\lyh\cloud\UserFeignNotHystrixClient.class
+com\lyh\cloud\ConsumerFeignHystrixApp.class
+com\lyh\cloud\pojo\Order.class

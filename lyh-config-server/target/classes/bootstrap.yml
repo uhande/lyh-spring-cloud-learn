@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      name: config-server
+      server:
+        native:
+          search-locations: classpath:/config
+        bootstrap: true
+  profiles:
+    active: native  #开启本地配置
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:8761/eureka

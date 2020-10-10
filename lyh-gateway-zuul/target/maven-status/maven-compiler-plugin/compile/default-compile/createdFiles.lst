@@ -1,4 +1,4 @@
-com\lyh\pojo\User.class
-com\lyh\consumer\controller\OrderController.class
-com\lyh\pojo\Order.class
-com\lyh\ConsumerApp.class
+com\lyh\cloud\fallback\ZuulFallbackProvider$1.class
+com\lyh\cloud\GatewayZuulApp.class
+com\lyh\cloud\fallback\ZuulFallbackProvider.class
+com\lyh\cloud\filter\PreZuulFilter.class

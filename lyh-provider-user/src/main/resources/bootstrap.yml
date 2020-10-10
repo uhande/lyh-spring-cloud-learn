@@ -1,0 +1,37 @@
+server:
+  port: 7900 #程序启动入口
+spring:
+  application:
+    name: lyh-provider-user #应用名称
+  cloud:
+    config:
+      profile: dev
+      discovery: #使用eureka的发现寻找config-server的服务
+        enabled: true
+        service-id: config-server
+      name: lyh-provider-user
+      #uri: http://localhost:8080
+    bus:
+      trace:
+        enabled: true
+    rabbitmq: #配置rabbitmq实现自动刷新
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:123@localhost:8761/eureka
+#健康监控配置
+management:
+  endpoint:
+    health:
+      show-details: always #是否健康监控显示细节
+    refresh:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      base-path: /
